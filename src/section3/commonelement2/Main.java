@@ -1,48 +1,49 @@
 package section3.commonelement2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
-    public ArrayList<Integer> arrayListSort(ArrayList<Integer> arr) {
+//    public ArrayList<Integer> arrayListSort(ArrayList<Integer> arr) {
+//
+//        for(int i = 0; i < arr.size() - 1; i++) {
+//            int num = arr.get(i);
+//            int index = i;
+//            for(int j = i + 1; j < arr.size(); j++) {
+//                if(num > arr.get(j)) {
+//                    num = arr.get(j);
+//                    index = j;
+//                }
+//            }
+//            if(index != i) {
+//                arr.set(index, arr.get(i));
+//                arr.set(i, num);
+//            }
+//        }
+//
+//        return arr;
+//    }
 
-        for(int i = 0; i < arr.size() - 1; i++) {
-            int num = arr.get(i);
-            int index = i;
-            for(int j = i + 1; j < arr.size(); j++) {
-                if(num > arr.get(j)) {
-                    num = arr.get(j);
-                    index = j;
-                }
-            }
-            if(index != i) {
-                arr.set(index, arr.get(i));
-                arr.set(i, num);
-            }
-        }
-
-        return arr;
-    }
-
-    public ArrayList<Integer> solution(int n, int m, ArrayList<Integer> arr1, ArrayList<Integer> arr2) {
+    public ArrayList<Integer> solution(int n, int m, int[] arr1, int[] arr2) {
         ArrayList<Integer> answer = new ArrayList<>();
         int arr1_index = 0, arr2_index = 0;
 
-        arr1 = arrayListSort(arr1);
-        arr2 = arrayListSort(arr2);
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
         while(arr1_index < n && arr2_index < m) {
-            if(arr1.get(arr1_index) == arr2.get(arr2_index)) {
-                answer.add(arr1.get(arr1_index));
+            if(arr1[arr1_index] == arr2[arr2_index]) {
+                answer.add(arr1[arr1_index]);
                 arr1_index++;
                 arr2_index++;
                 continue;
             }
-            if(arr1.get(arr1_index) > arr2.get(arr2_index)) {
+            if(arr1[arr1_index] > arr2[arr2_index]) {
                 arr2_index++;
                 continue;
             }
-            if(arr1.get(arr1_index) < arr2.get(arr2_index)) {
+            if(arr1[arr1_index] < arr2[arr2_index]) {
                 arr1_index++;
                 continue;
             }
@@ -56,14 +57,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        ArrayList<Integer> arr1 = new ArrayList<>();
+        int[] arr1 = new int[n];
         for(int i = 0; i < n; i++) {
-            arr1.add(sc.nextInt());
+            arr1[i] = sc.nextInt();
         }
         int m = sc.nextInt();
-        ArrayList<Integer> arr2 = new ArrayList<>();
+        int[] arr2 = new int[m];
         for(int i = 0; i < m; i++) {
-            arr2.add(sc.nextInt());
+            arr2[i] = sc.nextInt();
         }
         for(int x : A.solution(n, m, arr1, arr2)) {
             System.out.print(x + " ");
