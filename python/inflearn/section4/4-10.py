@@ -12,4 +12,3 @@ for i in range(n):
         else:
             l[j] -= 1
 print(*answer)
-        
