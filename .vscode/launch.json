@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "java_lan.programmers.Test",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "java_lan.test",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "전화번호목록",
+            "request": "launch",
+            "mainClass": "전화번호목록",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
             "name": "Main1967",
             "request": "launch",
             "mainClass": "java_lan.baekjoon.dfs.Main1967",
