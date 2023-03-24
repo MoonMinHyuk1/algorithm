@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main9935",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.stack_queue.Main9935",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main17298",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.stack_queue.Main17298",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main4195",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.hash.Main4195",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main30333033",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.hash.Main30333033",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main3033",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.hash.Main3033",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "java_lan.programmers.Test",
