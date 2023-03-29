@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.Test",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main2225",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.mathematics.Main2225",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main1011",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.mathematics.Main1011",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
             "name": "Main2110",
             "request": "launch",
             "mainClass": "java_lan.baekjoon.binary_search.Main2110",
