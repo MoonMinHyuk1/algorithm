@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main1918",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.stack_queue.Main1918",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
+            "name": "Main9663",
+            "request": "launch",
+            "mainClass": "java_lan.baekjoon.bruteforcing.Main9663",
+            "projectName": "algorithm_8b38ad4a"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "java_lan.baekjoon.Test",
