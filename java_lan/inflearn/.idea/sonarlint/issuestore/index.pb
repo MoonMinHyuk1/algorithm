@@ -40,3 +40,7 @@ Q
 !src/sorting_thinking/Main4_1.java,c/2/c27216c6a91ef9f4a348dc6d7eef0351daace5f0
 Q
 !src/sorting_thinking/Main4_2.java,b/e/be683e12f2d14144b310e5990fc4c2040c9ed2cc
+Q
+!src/sorting_thinking/Main4_3.java,0/a/0a882dd907ae9be0ac3cd879b91886e8076a46cc
+Q
+!src/sorting_thinking/Main4_4.java,a/3/a3ac32fa4bda2413b5b872101121867ef6edeb23
