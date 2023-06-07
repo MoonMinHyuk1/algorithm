@@ -46,3 +46,11 @@ Q
 !src/sorting_thinking/Main4_4.java,a/3/a3ac32fa4bda2413b5b872101121867ef6edeb23
 Q
 !src/sorting_thinking/Main4_5.java,8/5/85ff51927510cc8d44ac666adb9b3ce60da96790
+Q
+!src/sorting_thinking/Main4_6.java,7/e/7e34432d3a48cd673009d1e4c79fced3dd97a4b2
+Q
+!src/sorting_thinking/Main4_7.java,d/0/d073dc4cfe65c8cb762548d4eab529622e4f95c1
+G
+src/greedy/Main5_2.java,b/c/bc20d7c9cac551573b1ec5c3fb742ec271c89079
+G
+src/greedy/Main5_1.java,5/a/5ad5ff49cc69eadda539776098d406ca6086059e
