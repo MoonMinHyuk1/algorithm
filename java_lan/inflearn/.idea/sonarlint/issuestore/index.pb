@@ -61,8 +61,6 @@ G
 G
 src/greedy/Main5_6.java,b/a/bae299f405dfce9565ddec01c847e39c88e80dc0
 D
-src/dfs/Main6_1.java,a/d/ad222705be442b710c785ea01c874536dba0353c
-D
 src/dfs/Main6_2.java,b/4/b452b7dc8b87a5f6061f415c1256644187b3f4f6
 D
 src/dfs/Main6_3.java,0/6/06c6b467f2b7e197f08b04b0fe0c26bf53ac0351
