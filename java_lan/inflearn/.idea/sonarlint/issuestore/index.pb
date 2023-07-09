@@ -82,3 +82,13 @@ D
 src/bfs/Main7_5.java,1/3/13ae6898ecb8deb15ca60217aff015507a2db855
 D
 src/bfs/Main7_6.java,5/0/50cb9725fabcf0edc6f76b8f0c6b01912dff6b59
+D
+src/dfs/Main6_1.java,a/d/ad222705be442b710c785ea01c874536dba0353c
+F
+src/graph/Main8_3.java,8/5/852eb0cb2dbe71a93f320eff6dc96d2cf1aa0b6a
+F
+src/graph/Main8_5.java,0/f/0fa1a01a4eed6fdb62bae7f2ba3c8c0574ac548f
+F
+src/graph/Main8_6.java,4/a/4aed9bbf2a6872115a20bb520e00b2cb41609887
+C
+src/dp/Main9_1.java,c/7/c7b585867265cb178694d5ecad2994bb78b0d100
