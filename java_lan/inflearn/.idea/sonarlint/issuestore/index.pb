@@ -92,3 +92,13 @@ F
 src/graph/Main8_6.java,4/a/4aed9bbf2a6872115a20bb520e00b2cb41609887
 C
 src/dp/Main9_1.java,c/7/c7b585867265cb178694d5ecad2994bb78b0d100
+C
+src/dp/Main9_2.java,b/b/bb413eaa5a0f62bdd3cd0902533e83b5970ae3da
+C
+src/dp/Main9_3.java,5/5/55357786151db7ee639b6fe232a47023c640241a
+C
+src/dp/Main9_4.java,8/4/84b6fab5a37d0b5365979a6cd0cd5f28759a127b
+C
+src/dp/Main9_6.java,8/3/83fa1ed3cda29df8c974d5595e5bbee6c78bb991
+C
+src/dp/Main9_5.java,5/5/55323c210f074f2814ab5d39d1865558c29f2903
