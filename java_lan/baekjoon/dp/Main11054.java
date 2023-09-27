@@ -42,4 +42,3 @@ public class Main11054 {
         System.out.println(answer - 1);
     }
 }
-//가장 긴 바이토닉 부분 수열
